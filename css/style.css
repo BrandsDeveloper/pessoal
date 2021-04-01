@@ -835,9 +835,9 @@ footer > span{
     }
 
     main section.three{
-        height: 210%;
+        height: 190%;
         position: relative;
-        top: 69%;
+        top: 55%;
     }
 
     main .three .texto-2{
@@ -874,8 +874,8 @@ footer > span{
     }
 
     footer{
-        height: 140%;
-        top: 410%;
+        height: 125%;
+        top: 375%;
     }
 
     footer .cont-footer{
@@ -915,7 +915,7 @@ footer > span{
     }
 
     #quem main .dados {
-        height: 215%;
+        height: 190%;
     }
 
     #quem main .dados .texto{
@@ -967,7 +967,7 @@ footer > span{
     }
 
     #quem footer{
-        top: 245%;
+        top: 219%;
     }
 
     footer > span {
