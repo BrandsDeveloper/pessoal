@@ -534,7 +534,7 @@ footer > span{
     }
 
     main section.three{
-        height: 150%;
+        height: 115%;
     }
 
     main .three .texto-2{
@@ -547,8 +547,8 @@ footer > span{
     }
 
     footer{
-        height: 100%;
-        top: 135%;
+        height: 80%;
+        top: 115%;
     }
 
     footer .cont-footer{
@@ -577,7 +577,11 @@ footer > span{
         width: 40%;
         font-size: 2.3em;
     }
-
+    
+    #quem main .dados{
+        height: 110%;
+    }
+    
     #quem main .dados .texto{
         margin: 50px 0px 0px 50px;
     }
@@ -585,7 +589,7 @@ footer > span{
     #quem main .dados div.img{
         width: 35%;
     }
-
+    
     #quem main .dados-2{
         margin: 0px 0px 0px 60px;
     }
@@ -600,7 +604,7 @@ footer > span{
     }   
 
     #quem footer{
-        top: 55%;
+        top: 40%;
     }
 }
 
