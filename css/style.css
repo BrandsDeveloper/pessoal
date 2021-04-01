@@ -534,7 +534,7 @@ footer > span{
     }
 
     main section.three{
-        height: 150%;
+        height: 115%;
     }
 
     main .three .texto-2{
@@ -547,8 +547,8 @@ footer > span{
     }
 
     footer{
-        height: 100%;
-        top: 135%;
+        height: 80%;
+        top: 115%;
     }
 
     footer .cont-footer{
@@ -577,7 +577,11 @@ footer > span{
         width: 40%;
         font-size: 2.3em;
     }
-
+    
+    #quem main .dados{
+        height: 110%;
+    }
+    
     #quem main .dados .texto{
         margin: 50px 0px 0px 50px;
     }
@@ -585,7 +589,7 @@ footer > span{
     #quem main .dados div.img{
         width: 35%;
     }
-
+    
     #quem main .dados-2{
         margin: 0px 0px 0px 60px;
     }
@@ -600,7 +604,7 @@ footer > span{
     }   
 
     #quem footer{
-        top: 55%;
+        top: 40%;
     }
 }
 
@@ -630,7 +634,7 @@ footer > span{
     }
 
     main .two{
-    height: 125%;
+    height: 95%;
     }
 
     main .two .texto{
@@ -648,7 +652,7 @@ footer > span{
     }
 
     main section.three{
-        height: 140%;
+        height: 95%;
     }
 
     main .three .texto-2{
@@ -679,8 +683,8 @@ footer > span{
     }
 
     footer{
-        height: 100%;
-        top: 140%;
+        height: 60%;
+        top: 90%;
     }
 
     footer .cont-footer{
@@ -768,7 +772,7 @@ footer > span{
         height: 100vh;
         background: white;
         line-height: 2.5em;
-        top: 17%;
+        top: 14%;
         left: -100%;
         text-align: center;
         transition: 0.5s all;
@@ -835,9 +839,9 @@ footer > span{
     }
 
     main section.three{
-        height: 230%;
+        height: 190%;
         position: relative;
-        top: 69%;
+        top: 55%;
     }
 
     main .three .texto-2{
@@ -874,8 +878,8 @@ footer > span{
     }
 
     footer{
-        height: 150%;
-        top: 430%;
+        height: 125%;
+        top: 375%;
     }
 
     footer .cont-footer{
@@ -915,7 +919,7 @@ footer > span{
     }
 
     #quem main .dados {
-        height: 250%;
+        height: 190%;
     }
 
     #quem main .dados .texto{
@@ -967,7 +971,7 @@ footer > span{
     }
 
     #quem footer{
-        top: 280%;
+        top: 219%;
     }
 
     footer > span {
