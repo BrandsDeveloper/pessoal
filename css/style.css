@@ -1,0 +1,977 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body, html{
+    font-family: 'Work Sans', sans-serif;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #e2dddd;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #141313; 
+  border-radius: 5px;       
+  border: 2px solid #e2dddd ;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: black;
+    display: inline-block;
+}
+
+header{
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 105px;
+    z-index: 2;
+}
+
+header #check{
+    display: none;
+}
+
+header .box-responsive{
+    font-size: 1.8em;
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    right: 8%;
+    display: none;
+}
+
+header a.name{
+    margin: 20px 0px 0px 200px;
+    text-align: center;
+}
+
+header a.name h1{
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+header a.name span{
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+header nav ul{
+    position: absolute;
+    top: 40px;
+    left: 55%;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+header nav ul li a:hover{
+    color: #607d8b;
+}
+
+.one, .three{
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main section.one{
+    background-image: url(../img/img02.png);
+}
+
+main section.three{
+    background-image: url(../img/img06.jpg);
+    opacity: 0.99;
+    color: white;
+    height: 130%;
+}
+
+main .one .center{
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+}
+
+main .one .center span{
+    font-size: 1.5em;
+}
+
+main .one .center h1{
+    font-size: 9em;
+}
+
+main .one .center a{
+    width: 9%;
+    color: white;
+    padding: 10px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    background: black;
+    border: 2px solid black;
+    transition: 0.2s all;
+}
+
+main .one .center a:hover{
+    color: black;
+    background: none;
+}
+
+main .two{
+    height: 110%;
+}
+
+main .two .texto hr{
+    margin-top: 40px;
+    width: 30%;
+}
+
+main .two .texto{
+    padding-left: 160px;
+    float: left;
+    width: 40%;
+}
+
+main .two .texto h1{
+    margin-top: 30px;
+    font-size: 3.5em;
+}
+
+main .two .texto p{
+    margin-top: 30px;
+}
+
+main .two .eu{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: url(../img/eu2.JPG) no-repeat center;
+    background-size: cover;
+}
+
+main .two .texto a{
+    margin-top: 30px;
+    width: 35%;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    font-size: 1em;
+    font-weight: normal;
+    background: black;
+    border: 2px solid black;
+    transition: 0.2s all;
+}
+
+main .two .texto a:hover{
+    color: black;
+    background: none;
+}
+
+main .three .texto-2{
+    position: relative;
+    width: 30%;
+    top: 60px;
+    left: 160px;
+}
+
+main .three .texto-2 hr{
+    border: 1px solid;
+    width: 30%;
+}
+
+main .three .texto-2 h1{
+    font-size: 3em;
+}
+
+main .prod{
+    margin: 0px auto;
+}
+
+main .prod ul{
+    display: flex;
+    margin: 150px auto 100px auto;
+    justify-content: center;
+}
+
+main .prod ul li{
+    display: inline-block;
+    border: 5px solid ;
+    width: 22%;
+    height: 280px;
+    margin: 15px;
+    text-align: center;
+}
+
+main .prod ul li h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 10px;
+}
+
+main .prod ul li hr{
+    margin: 0 auto;
+    border: 1px solid;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+main .prod ul li p{
+    margin-top: 10px;
+}
+
+main .prod ul li a{
+    margin-top: 30px;
+    width: 50%;
+    padding: 10px 0px;
+    background: #11d4d4 ;
+}
+
+main .prod ul li a:hover{
+    width: 50%;
+    padding: 10px 0px;
+    background: rgb(20, 228, 228);
+}
+
+main .three > a{
+    margin-left: 42%;
+    padding: 12px 0px;
+    text-align: center;
+    width: 15%;
+    background: white;
+    border: 2px solid white;
+    color: black;
+    transition: 0.5s all;
+}
+
+main .three > a:hover{
+    background: none;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 85%;
+    position: relative;
+    top: 130%;
+    clear: both;
+    background: #607d8b;
+    color: white;
+}
+
+footer .cont-footer, form{
+    display: inline-block; 
+    width: 50%;
+}
+
+footer .cont-footer{
+    position: relative;
+    bottom: 70px;
+    width: 30%;
+    margin: 0px 50px 0px 160px;
+}
+
+footer .cont-footer hr{
+    width: 15%;
+    border: 1px solid white;
+}
+
+footer .cont-footer h1{
+    margin-top: 15px;
+    letter-spacing: 5px;
+}
+
+footer .cont-footer address{
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+footer .cont-footer span{
+    display: block;
+}
+
+footer .cont-footer span a{
+    color: white;
+}
+
+footer .cont-footer > span:nth-child(2n){
+    margin-top: 30px;
+}
+
+footer .cont-footer p{
+    margin-top: 20px;
+}
+
+footer .cont-footer .icon{
+    width: 35%;
+}
+
+footer .cont-footer .icon a{
+    display: inline;
+    padding: 5px;
+}
+
+footer .cont-footer .icon a img{
+    width: 23%;
+    margin: 30px 0px 0px 0px;
+}
+
+footer form{
+    margin: 60px 20px 0px 0px;
+}
+
+footer form input{
+    background: transparent;
+    width: 90%;
+    height: 37px;
+    outline: none;
+    padding: 5px 5px 5px 20px;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+footer form input::placeholder, textarea::placeholder{
+    color: white;
+}
+
+footer form textarea{
+    width: 90%;
+    padding: 10px 5px 5px 20px;
+    outline: none;
+    background: transparent;
+    border: 2px solid white;
+    margin: 10px 0px 0px 0px;
+}
+
+footer form input:hover, textarea:hover{
+    border: 1px solid white;
+}
+
+footer form input[type="submit"]{
+    width: 20%;
+    height: 35px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    background: white;
+    margin-left: 70%;
+    border: 2px solid white;
+    outline: none;
+    transition: 0.5s all;
+}
+
+footer form input[type="submit"]:hover{
+    color: white;
+    background: none;
+}
+
+footer > span{
+    display: block;
+    width: 50%;
+    margin: 35px 0px 30px 160px;
+}
+
+/*Paginas Quem */
+
+#quem main .prime{
+    height: 120%;
+    background-image: url(../img/img08.jpg);
+    background-attachment: fixed;
+}
+
+#quem main .prime .center{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+}
+
+#quem main .prime .center h1{
+    margin-top: 0.8%;
+    margin-left: 15%;
+    width: 15%;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#quem main .prime .center hr{
+    margin-left: 15%;
+    width: 5%;
+    border: 1px solid black;
+}
+
+#quem main .dados{
+    width: 100%;
+    height: 100%;
+}
+
+#quem main .dados .texto{
+    float: left;
+    width: 50%;
+    margin: 80px 0px 0px 160px;
+}
+
+#quem main .dados .texto h1{
+    font-weight: normal;
+}
+
+#quem main .dados .texto p{
+    margin-top: 2%;
+}
+
+#quem main .dados .texto p:nth-of-type(2){
+    width: 140%;
+}
+
+#quem main .dados .texto p:nth-of-type(3){
+    width: 150%;
+}
+
+#quem main .dados div.img{
+    width: 20%;
+    height: 50%;
+    background-image: url(../img/eu2.JPG);
+    background-size: cover;
+    background-position: center;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 1%;
+    border-radius: 20px;
+}
+
+#quem main .dados-2{
+    clear: both;
+    margin: 0px 0px 0px 160px;
+}
+
+#quem main .dados ul{
+    display: inline-block;
+    margin: 50px 0px 0px 0px;
+}
+
+#quem main .dados ul:nth-of-type(1){
+    margin-right: 18%;
+}
+
+#quem main .dados ul h1{
+    margin-bottom: 10%;
+    font-weight: normal;
+}
+
+#quem main .dados ul li{
+    list-style: initial;
+    margin: 8px 0px 0px 20px;
+}
+
+#quem footer{
+    top: 39%;
+}
+
+@media (min-width: 1001px) and (max-width: 1258px){
+    
+    header{
+        height: 110px;
+    }
+    
+    header a.name{
+        margin: 20px 0px 0px 160px;
+    }
+
+    header nav ul{
+        left: 55%;
+    }
+
+    main .one .center a{
+        width: 10%;
+        padding: 10px 0px;
+        font-size: 1em;
+    }
+
+    main .two{
+        height: 125%;
+    }
+    
+    main .two .texto{
+        padding-left: 50px;
+        width: 45%;
+    }
+
+    main .two .texto h1{
+        font-size: 2.5em;
+    }
+
+    main .two .texto a{
+        width: 35%;
+    }
+
+    main section.three{
+        height: 150%;
+    }
+
+    main .three .texto-2{
+        left: 50px;
+    }
+
+    main .prod ul li{
+        width: 25%;
+        margin: 0px 30px 0px 0px;
+    }
+
+    footer{
+        height: 100%;
+        top: 135%;
+    }
+
+    footer .cont-footer{
+        bottom: 40px;
+        width: 30%;
+        margin: 0px 0px 0px 80px;
+    }
+
+    footer .cont-footer .icon{
+        width: 60%;
+    }
+
+    footer form{
+        margin: 60px 0px 0px 46px;
+    }
+
+    footer > span{
+        margin: 35px 0px 30px 80px;
+    }
+    
+    #quem main .prime{
+        background-position: center top;
+    }
+
+    #quem main .prime .center h1{
+        width: 40%;
+        font-size: 2.3em;
+    }
+
+    #quem main .dados .texto{
+        margin: 50px 0px 0px 50px;
+    }
+
+    #quem main .dados div.img{
+        width: 35%;
+    }
+
+    #quem main .dados-2{
+        margin: 0px 0px 0px 60px;
+    }
+
+    #quem main .dados ul{
+        margin: 50px 0px 10px 0px;
+        width: 35%;
+    }
+
+    #quem main .dados ul:nth-of-type(1) {
+        margin-right: 8%;
+    }   
+
+    #quem footer{
+        top: 55%;
+    }
+}
+
+@media (min-width: 735px) and (max-width: 1000px){
+    
+    header{
+        height: 100px;
+    }
+    
+    header a.name{
+        margin: 20px 0px 0px 50px;
+    }
+
+    header nav ul{
+        left: 40%;
+    }
+
+    .one, .three{
+        background-size: cover;
+        background-position: center top;
+    }
+
+    main .one .center a{
+        width: 13%;
+        padding: 10px 0px;
+        font-size: 1em;
+    }
+
+    main .two{
+    height: 125%;
+    }
+
+    main .two .texto{
+        padding-left: 50px;
+        width: 45%;
+    }
+
+    main .two .texto h1{
+        margin-top: 30px;
+        font-size: 3em;
+    }
+
+    main .two .texto a{
+        width: 100%;
+    }
+
+    main section.three{
+        height: 140%;
+    }
+
+    main .three .texto-2{
+        width: 50%;
+        left: 50px;
+    }
+
+    main .prod ul{
+        margin: 150px auto 80px auto;
+    }
+
+    main .prod ul li{
+        width: 30%;
+        margin: 7px;
+    }
+
+    main .prod ul li h1{
+        font-size: 1.1em;
+    }
+
+    main .prod ul li a{
+        width: 60%;
+    }
+
+    main .three > a{
+        margin-left: 40%;
+        width: 20%;
+    }
+
+    footer{
+        height: 100%;
+        top: 140%;
+    }
+
+    footer .cont-footer{
+        bottom: 40px;
+        width: 30%;
+        margin: 0px 0px 0px 50px;
+    }
+
+    footer .cont-footer .icon{
+        width: 60%;
+    }
+
+    footer form{
+        margin: 60px 0px 0px 46px;
+    }
+
+    footer > span{
+        margin: 35px 0px 30px 50px;
+    }
+    
+    #quem main .prime{
+        background-position: center top;
+    }
+
+    #quem main .prime .center h1{
+        width: 40%;
+        font-size: 2.5em;
+    }
+
+    #quem main .prime .center hr{
+        width: 10%;
+    }
+
+    #quem main .dados .texto{
+        margin: 50px 0px 0px 50px;
+    }
+
+    #quem main .dados div.img{
+        width: 30%;
+    }
+
+    #quem main .dados-2{
+        margin: 0px 0px 0px 60px;
+    }
+
+    #quem main .dados ul{
+        margin: 50px 0px 10px 0px;
+        width: 35%;
+    }
+
+    #quem footer{
+        top: 55%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+    
+    header{
+        height: 100px;
+        background: aliceblue;
+    }
+    
+    header .box-responsive{
+        display: initial;
+    }
+
+    header a.name{
+        margin: 5px 0px 0px 0px;
+        background-image: url(../img/logo.png);
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-indent: -9000px;
+        width: 30%;
+        height: 77%;
+    }
+
+    header a.name > span{
+        display: none;
+    }
+
+    header nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        line-height: 2.5em;
+        top: 17%;
+        left: -100%;
+        text-align: center;
+        transition: 0.5s all;
+    }
+
+    header nav ul li{
+        display: block;
+    }
+
+    header nav ul li a{
+        font-size: 1.1em;
+    }    
+
+    header #check:checked ~ nav ul{
+        left: 0;
+    }
+
+    .one, .three{
+        background-size: 230%;
+        background-position: center;
+    }
+
+    main .one .center span {
+        font-size: 1.2em;
+    }
+
+    main .one .center h1 {
+        font-size: 4em;
+    }
+
+    main .one .center a{
+        width: 30%;
+        margin-top: 10%;
+        padding: 10px 0px;
+        font-size: 1em;
+    }
+
+    main .two{
+    height: 125%;
+    }
+
+    main .two .texto{
+        padding-left: 20px;
+        width: 90%;
+        float: none;
+        margin-bottom: 10%;
+    }
+
+    main .two .texto h1{
+        margin-top: 30px;
+        font-size: 3em;
+    }
+
+    main .two .texto a{
+        width: 100%;
+    }
+
+    main .two .eu {
+        float: none;
+        width: 100%;
+        height: 100%;
+        background-position: top;
+        background-size: 200%;
+    }
+
+    main section.three{
+        height: 230%;
+        position: relative;
+        top: 69%;
+    }
+
+    main .three .texto-2{
+        width: 90%;
+        left: 20px;
+    }
+
+    main .three .texto-2 hr {
+        width: 20%;
+    }
+
+    main .three .texto-2 h1 {
+        font-size: 2em;
+    }
+
+    main .prod ul{
+        display: block;
+    }
+
+    main .prod ul li{
+        height: 240px;
+        display: block;
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    main .prod ul li h1{
+        font-size: 1em;
+    }
+
+    main .three > a{
+        margin-left: 30%;
+        width: 40%;
+    }
+
+    footer{
+        height: 150%;
+        top: 430%;
+    }
+
+    footer .cont-footer{
+        top: 40px;
+        width: 90%;
+        margin: 0px 0px 0px 30px;
+    }
+
+    footer .cont-footer .icon{
+        width: 60%;
+    }
+
+    footer .cont-footer .icon a img {
+        width: 20%;
+    }
+
+    footer form{
+        margin: 60px 0px 0px 30px;
+        width: 90%;
+    }
+
+    footer form input[type="submit"] {
+        width: 40%;
+        height: 35px;
+        text-align: center;
+        margin-left: 50%;
+    }
+    
+    #quem main .prime{
+        background-size: 300%;
+        background-position: center top;
+    }
+
+    #quem main .prime .center h1{
+        width: 40%;
+        font-size: 2em;
+    }
+
+    #quem main .dados {
+        height: 250%;
+    }
+
+    #quem main .dados .texto{
+        margin: 65px 0px 0px 30px;
+        float: none;
+        width: 80%;
+    }
+
+    #quem main .dados div.img {
+        position: absolute;
+        top: 96%;
+        right: 20%;
+        width: 60%;
+        float: none;
+        height: 34%;
+        background-size: 150%;
+        background-position: top;
+        }
+
+    #quem main .dados .texto p:nth-of-type(2) {
+        width: 100%;
+    }
+    
+    #quem main .dados .texto p:nth-of-type(3) {
+        width: 100%;
+    }
+
+    #quem main .dados-2{
+        width: 90%;
+        margin: 0px 0px 0px 30px;
+    }
+
+    #quem main .dados ul h1 {
+        width: 55%;
+    }
+
+    #quem main .dados ul{
+        width: 100%;
+        display: block;
+    }
+
+    #quem main .dados ul:nth-of-type(1) {
+        margin-right: 0%;
+    }
+
+    #quem main .dados ul li {
+        width: 90%;
+        margin: 15px 0px 0px 20px;
+    }
+
+    #quem footer{
+        top: 280%;
+    }
+
+    footer > span {
+        width: 90%;
+        margin: 35px 0px 30px 30px;
+    }
+}
