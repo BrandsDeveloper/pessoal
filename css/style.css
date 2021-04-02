@@ -280,8 +280,6 @@ main .three > a:hover{
 footer{
     width: 100%;
     height: 85%;
-    position: relative;
-    top: 130%;
     clear: both;
     background: #607d8b;
     color: white;
@@ -430,7 +428,7 @@ footer > span{
 
 #quem main .dados{
     width: 100%;
-    height: 100%;
+    height: 115%;
 }
 
 #quem main .dados .texto{
@@ -492,10 +490,6 @@ footer > span{
     margin: 8px 0px 0px 20px;
 }
 
-#quem footer{
-    top: 39%;
-}
-
 @media (min-width: 1001px) and (max-width: 1258px){
     
     header{
@@ -534,7 +528,7 @@ footer > span{
     }
 
     main section.three{
-        height: 150%;
+        height: 145%;
     }
 
     main .three .texto-2{
@@ -576,6 +570,10 @@ footer > span{
     #quem main .prime .center h1{
         width: 40%;
         font-size: 2.3em;
+    }
+
+    #quem main .dados{
+        height: 135%;
     }
 
     #quem main .dados .texto{
@@ -630,7 +628,7 @@ footer > span{
     }
 
     main .two{
-    height: 125%;
+        height: 165%;
     }
 
     main .two .texto{
@@ -714,12 +712,17 @@ footer > span{
         width: 10%;
     }
 
+    #quem main .dados{
+        height: 155%;
+    }
+
     #quem main .dados .texto{
         margin: 50px 0px 0px 50px;
     }
 
     #quem main .dados div.img{
         width: 30%;
+        height: 30%;
     }
 
     #quem main .dados-2{
@@ -807,7 +810,7 @@ footer > span{
     }
 
     main .two{
-    height: 125%;
+        height: 220%;
     }
 
     main .two .texto{
@@ -835,9 +838,7 @@ footer > span{
     }
 
     main section.three{
-        height: 230%;
-        position: relative;
-        top: 110%;
+        height: 225%;
     }
 
     main .three .texto-2{
@@ -874,8 +875,7 @@ footer > span{
     }
 
     footer{
-        height: 150%;
-        top: 470%;
+        height: 155%;
     }
 
     footer .cont-footer{
@@ -915,7 +915,7 @@ footer > span{
     }
 
     #quem main .dados {
-        height: 250%;
+        height: 225%;
     }
 
     #quem main .dados .texto{
@@ -933,7 +933,7 @@ footer > span{
         height: 34%;
         background-size: 150%;
         background-position: top;
-        }
+    }
 
     #quem main .dados .texto p:nth-of-type(2) {
         width: 100%;
@@ -966,8 +966,10 @@ footer > span{
         margin: 15px 0px 0px 20px;
     }
 
-    #quem footer{
-        top: 280%;
+    @media (max-width:390px){
+        #quem main .dados{
+            height: 250%;
+        }
     }
 
     footer > span {
