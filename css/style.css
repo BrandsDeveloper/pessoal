@@ -110,7 +110,7 @@ main section.three{
     background-image: url(../img/img06.jpg);
     opacity: 0.99;
     color: white;
-    height: 130%;
+    height: auto;
 }
 
 main .one .center{
@@ -266,6 +266,7 @@ main .prod ul li a:hover{
 
 main .three > a{
     margin-left: 42%;
+    margin-bottom: 10%;
     padding: 12px 0px;
     text-align: center;
     width: 15%;
