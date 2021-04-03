@@ -395,6 +395,8 @@ footer > span{
     display: block;
     width: 50%;
     margin: 35px 0px 30px 160px;
+    position: relative;
+    bottom: 30px;
 }
 
 /*Paginas Quem */
@@ -528,11 +530,15 @@ footer > span{
     }
 
     main section.three{
-        height: 145%;
+        height: auto;
     }
 
     main .three .texto-2{
         left: 50px;
+    }
+
+    main .three > a {
+        margin-bottom: 10%;
     }
 
     main .prod ul li{
@@ -541,8 +547,7 @@ footer > span{
     }
 
     footer{
-        height: 100%;
-        top: 135%;
+        height: auto;
     }
 
     footer .cont-footer{
@@ -561,6 +566,8 @@ footer > span{
 
     footer > span{
         margin: 35px 0px 30px 80px;
+        position: relative;
+        bottom: 25px;
     }
     
     #quem main .prime{
@@ -573,7 +580,8 @@ footer > span{
     }
 
     #quem main .dados{
-        height: 135%;
+        height: auto;
+        margin-bottom: 10%;
     }
 
     #quem main .dados .texto{
@@ -597,9 +605,6 @@ footer > span{
         margin-right: 8%;
     }   
 
-    #quem footer{
-        top: 55%;
-    }
 }
 
 @media (min-width: 735px) and (max-width: 1000px){
@@ -677,8 +682,7 @@ footer > span{
     }
 
     footer{
-        height: 100%;
-        top: 140%;
+        height: auto;
     }
 
     footer .cont-footer{
@@ -713,7 +717,8 @@ footer > span{
     }
 
     #quem main .dados{
-        height: 155%;
+        height: 800px;
+        margin-bottom: 10%;
     }
 
     #quem main .dados .texto{
@@ -734,9 +739,6 @@ footer > span{
         width: 35%;
     }
 
-    #quem footer{
-        top: 55%;
-    }
 }
 
 @media (min-width: 320px) and (max-width: 500px){
@@ -794,6 +796,10 @@ footer > span{
         background-position: center;
     }
 
+    .three{
+        background-size: cover;
+    }
+
     main .one .center span {
         font-size: 1.2em;
     }
@@ -810,7 +816,7 @@ footer > span{
     }
 
     main .two{
-        height: 220%;
+        height: 1230px;
     }
 
     main .two .texto{
@@ -838,7 +844,7 @@ footer > span{
     }
 
     main section.three{
-        height: 225%;
+        height: auto;
     }
 
     main .three .texto-2{
@@ -871,11 +877,12 @@ footer > span{
 
     main .three > a{
         margin-left: 30%;
+        margin-bottom: 15%;
         width: 40%;
     }
 
     footer{
-        height: 155%;
+        height: auto;
     }
 
     footer .cont-footer{
@@ -915,7 +922,8 @@ footer > span{
     }
 
     #quem main .dados {
-        height: 225%;
+        height: auto;
+        margin-bottom: 20%;
     }
 
     #quem main .dados .texto{
@@ -964,12 +972,6 @@ footer > span{
     #quem main .dados ul li {
         width: 90%;
         margin: 15px 0px 0px 20px;
-    }
-
-    @media (max-width:390px){
-        #quem main .dados{
-            height: 250%;
-        }
     }
 
     footer > span {
