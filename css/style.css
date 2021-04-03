@@ -123,6 +123,9 @@ main .one .center{
 
 main .one .center span{
     font-size: 1.5em;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0px;
+    box-shadow: inset 0px 0px 20px 10px white;
 }
 
 main .one .center h1{
@@ -146,7 +149,7 @@ main .one .center a:hover{
 }
 
 main .two{
-    height: 110%;
+    height: 800px;
 }
 
 main .two .texto hr{
@@ -279,7 +282,7 @@ main .three > a:hover{
 
 footer{
     width: 100%;
-    height: 85%;
+    height: auto;
     clear: both;
     background: #607d8b;
     color: white;
@@ -430,7 +433,8 @@ footer > span{
 
 #quem main .dados{
     width: 100%;
-    height: 115%;
+    height: auto;
+    margin-bottom: 10%;
 }
 
 #quem main .dados .texto{
@@ -513,7 +517,7 @@ footer > span{
     }
 
     main .two{
-        height: 125%;
+        height: 115%;
     }
     
     main .two .texto{
@@ -526,28 +530,16 @@ footer > span{
     }
 
     main .two .texto a{
-        width: 35%;
-    }
-
-    main section.three{
-        height: auto;
+        width: 130px;
     }
 
     main .three .texto-2{
         left: 50px;
     }
 
-    main .three > a {
-        margin-bottom: 10%;
-    }
-
     main .prod ul li{
         width: 25%;
         margin: 0px 30px 0px 0px;
-    }
-
-    footer{
-        height: auto;
     }
 
     footer .cont-footer{
@@ -577,11 +569,6 @@ footer > span{
     #quem main .prime .center h1{
         width: 40%;
         font-size: 2.3em;
-    }
-
-    #quem main .dados{
-        height: auto;
-        margin-bottom: 10%;
     }
 
     #quem main .dados .texto{
@@ -622,7 +609,7 @@ footer > span{
     }
 
     .one, .three{
-        background-size: cover;
+        background-size: 265%;
         background-position: center top;
     }
 
@@ -633,7 +620,7 @@ footer > span{
     }
 
     main .two{
-        height: 165%;
+        height: 875px;
     }
 
     main .two .texto{
@@ -648,10 +635,6 @@ footer > span{
 
     main .two .texto a{
         width: 100%;
-    }
-
-    main section.three{
-        height: 140%;
     }
 
     main .three .texto-2{
@@ -679,10 +662,6 @@ footer > span{
     main .three > a{
         margin-left: 40%;
         width: 20%;
-    }
-
-    footer{
-        height: auto;
     }
 
     footer .cont-footer{
@@ -718,7 +697,6 @@ footer > span{
 
     #quem main .dados{
         height: 800px;
-        margin-bottom: 10%;
     }
 
     #quem main .dados .texto{
@@ -881,10 +859,6 @@ footer > span{
         width: 40%;
     }
 
-    footer{
-        height: auto;
-    }
-
     footer .cont-footer{
         top: 40px;
         width: 90%;
@@ -922,7 +896,6 @@ footer > span{
     }
 
     #quem main .dados {
-        height: auto;
         margin-bottom: 20%;
     }
 
